@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #383541;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #50476B;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.144);
+}
+
+.titulo {
+    font-family: "Black Ops One";
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #D2BCFF;
+    font-size: 2rem;
+    padding-top: 1.188rem;
+    border-bottom: 1px solid #D2BCFF;
+}
+
+.nav {
+    width: 100%;
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    padding: 0 12.2rem 0 12.2rem;
+    text-decoration: none;
+    color: #D2BCFF;
+}
+
+.links a:hover {
+    background: linear-gradient(to top, #383541a8, #50476B 70%);
+}
+
+.div-posicionamento {
+    display: flex;
+}
+
+section {
+    margin: 10px;
+    text-align: center;
+}
+
+.thorfinn {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
+}
+
+aside {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subtitulo {
+    color: #D2BCFF;
+    text-align: center;
+}
+
+.paragrafo {
+    color: #F3FAFF;
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+
+.lista_links {
+    list-style-type: none;
+    position: relative;
+    margin: 10px auto 0;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.lista_links a {
+    display: flex;
+    background-color: #F3FAFF;
+    padding: 10px 20px;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: .5s;
+    color: #50476B;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.lista_links a:hover {
+    background-color: #dbdbdb;
+}
+
+.crunchyroll:hover {
+    color: #FF640A;
+}
+
+.netflix:hover {
+    color: #E50914;
+}
+
+.prime:hover {
+    color: #0F79AF;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #50476B;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.144);
+}
